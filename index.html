@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IMMACULATE TECH | YASSER TECH</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0b0f1a;
+    color: #fff;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #111827;
+}
+
+header h2 {
+    color: #00ff88;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+    url('https://i.ibb.co/VYCntgbZ/RD32353536323239363634343040732e77686174736170702e6e6574-239404.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BUTTONS */
+.btn {
+    padding: 12px 25px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.join {
+    background: #00ff88;
+}
+
+.join:hover {
+    background: #00cc6a;
+    transform: scale(1.05);
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* CARDS */
+.card {
+    background: #111827;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* VIP LOCK */
+.locked {
+    opacity: 0.5;
+}
+
+/* FLOAT BUTTON */
+.float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+}
+
+/* STICKY JOIN */
+.sticky {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #00ff88;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+footer {
+    background: #111827;
+    padding: 20px;
+    text-align: center;
+    color: #aaa;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h2>IMMACULATE TECH & YASSER TECH</h2>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+<h1>🔥 Best Betting Tips Tanzania</h1>
+<p>Jiunge sasa upate tips za uhakika na ushindi wa kila siku 💰</p>
+
+<a href="https://1win.com/?p=m5ly">
+<button class="btn join" onclick="playSound()">JOIN NOW</button>
+</a>
+
+<a href="https://wa.me/255797076425">
+<button class="btn whatsapp" onclick="playSound()">WHATSAPP</button>
+</a>
+</section>
+
+<!-- WHY -->
+<section class="section">
+<h2>Why Choose Us</h2>
+<div class="card">✅ Tips sahihi</div>
+<div class="card">⚡ Fast updates</div>
+<div class="card">💰 Winning strategies</div>
+</section>
+
+<!-- FREE TIPS -->
+<section class="section">
+<h2>Free Tips</h2>
+
+<div class="card">
+⚽ Arsenal vs Man U <br>
+📊 Over 2.5 <br>
+⭐ 80%
+</div>
+
+<div class="card">
+⚽ Madrid vs Barca <br>
+📊 GG <br>
+⭐ 75%
+</div>
+
+</section>
+
+<!-- VIP LOCKED -->
+<section class="section">
+<h2>VIP Tips 🔒</h2>
+
+<div class="card locked">
+🔒 Hidden Tip <br>
+Join VIP kupata access
+</div>
+
+<div class="card locked">
+🔒 Premium Match <br>
+Contact WhatsApp
+</div>
+
+</section>
+
+<!-- CHANNEL -->
+<section class="section">
+<h2>Join Channel</h2>
+<a href="https://whatsapp.com/channel/0029Vb7nVvp3mFY91akGi83J">
+<button class="btn whatsapp" onclick="playSound()">JOIN NOW</button>
+</a>
+</section>
+
+<!-- FLOATING -->
+<a href="https://wa.me/255797076425" class="float">💬</a>
+
+<!-- STICKY -->
+<a href="https://1win.com/?p=m5ly" class="sticky">JOIN</a>
+
+<footer>
+© 2026 IMMACULATE TECH & YASSER TECH <br><br>
+Betting involves risk. Cheza kwa kiasi.
+</footer>
+
+<!-- SOUND -->
+<audio id="clickSound">
+<source src="https://www.soundjay.com/buttons/sounds/button-09.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function playSound() {
+    document.getElementById("clickSound").play();
+}
+</script>
+
+</body>
+</html>
